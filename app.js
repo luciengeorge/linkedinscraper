@@ -13,6 +13,6 @@ app.get('/scrape', (req, res) => {
   })
 });
 
-app.listen(port, () => { // port 3000
+app.listen(port, () => {
   console.log(`server is up on port ${port}.`);
 });
