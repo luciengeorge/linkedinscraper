@@ -14,7 +14,7 @@ const scrape = async (url) => {
   // Loading it in memory
   await scraper.setup()
 
-  const result = await scraper.run('https://www.linkedin.com/in/luciengeorge/');
+  const result = await scraper.run(url);
 
   await scraper.close();
 
