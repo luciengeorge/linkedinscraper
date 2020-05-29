@@ -1,13 +1,24 @@
 {
   "name": "linkedinscraper",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "linkedin-profile-scraper": "^2.1.8"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucien-george/linkedinscraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucien-george/linkedinscraper/issues"
+  },
+  "homepage": "https://github.com/lucien-george/linkedinscraper#readme"
 }

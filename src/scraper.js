@@ -10,8 +10,6 @@ const scrape = async (url) => {
     timeout: 3000000
   });
 
-  // Prepare the scraper
-  // Loading it in memory
   await scraper.setup()
 
   const result = await scraper.run(url);
