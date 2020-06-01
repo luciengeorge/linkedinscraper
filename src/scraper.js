@@ -13,7 +13,7 @@ const scrape = async (url) => {
   }
   const scraper = new LinkedInProfileScraper({
     sessionCookieValue: cookies[Math.floor(Math.random() * cookies.length)],
-    keepAlive: true,
+    keepAlive: false,
     timeout: 3000000
   });
 
