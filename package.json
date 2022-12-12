@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "chrome-aws-lambda": "^3.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "linkedin-profile-scraper": "^2.1.8",
     "puppeteer": "^3.2.0",
     "puppeteer-core": "^3.1.0"
